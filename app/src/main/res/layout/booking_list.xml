@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:clickable="true"
+    android:clipToPadding="false"
+    app:cardUseCompatPadding="true"
+    android:backgroundTint="#E0F3FF"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="10dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgRoom"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pg1"
+                android:layout_height="130dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_below="@id/imgRoom"
+                android:background="@drawable/horizontal_line" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/textName"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/textName">
+
+                <TextView
+                    android:id="@+id/textAddress"
+                    android:layout_width="200dp"
+                    android:layout_height="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_below="@id/textName"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgBooked"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/booked"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
