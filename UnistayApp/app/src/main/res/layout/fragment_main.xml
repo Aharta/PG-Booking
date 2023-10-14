@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MainFragment"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/logoblue"
+        android:layout_gravity="center"
+        android:layout_width="170dp"
+        android:layout_height="170dp"/>
+
+    <TextView
+        android:text="Select City "
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="We are present in these cities ! "
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <GridLayout
+        android:layout_width="330dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_margin="40dp"
+        android:layout_gravity="center_horizontal"
+        android:rowCount="2">
+
+        <ImageButton
+            android:id="@+id/btnPune"
+            android:src="@drawable/pune"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:clickable="true"/>
+
+        <ImageButton
+            android:id="@+id/btnMumbai"
+            android:src="@drawable/mumbai"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:clickable="true"/>
+
+        <ImageButton
+            android:id="@+id/btnHyderabad"
+            android:src="@drawable/hyderabad"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:clickable="true"/>
+
+        <ImageButton
+            android:id="@+id/btnBanglore"
+            android:src="@drawable/banglore"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:clickable="true"/>
+    </GridLayout>
+
+</LinearLayout>
