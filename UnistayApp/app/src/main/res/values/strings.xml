@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">UniStay</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="not_customer_register">Not A Customer? Register...</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">One place, another world</string>
+    <string name="already_customer_login">Already a Customer? Login..</string>
+    <string name="register">Register</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="rupee">\u20B9</string>
+</resources>
